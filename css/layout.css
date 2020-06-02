@@ -1,0 +1,20 @@
+.container{
+
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-rows: 50px 200px 100px 70px;
+    grid-template-columns: 35vw 30vw 35vw;
+    grid-template-areas: ". . ."
+                         ". main-title ."
+                         ". counter ."
+                         ". . .";
+}
+.main-title{
+
+    grid-area: main-title;
+}
+.counter{
+
+    grid-area: counter;
+}
